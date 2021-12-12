@@ -1,0 +1,17 @@
+{
+	"name": "01-socket-server-basic",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "nodemon index.js",
+		"start": "node index.js"
+	},
+	"dependencies": {
+		"dotenv": "^10.0.0",
+		"express": "^4.17.1",
+		"nodemon": "^2.0.15",
+		"socket.io": "^4.4.0"
+	}
+}
